@@ -28,18 +28,18 @@ export function Hero() {
        Secure Savings On-Chain!
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-      Circles is a decentralized savings platform where users save together and enjoy friendly 
-      competition. With funds securely stored on the blockchain, saving is both fun 
+      Circles is a decentralized savings platform where users save together and enjoy friendly
+      competition. With funds securely stored on the blockchain, saving is both fun
       and safe ⚆
       grow your wealth together!
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="#">Start Saving</Button>
+        <Button href="https://app.circlesonchain.xyz">Start Saving</Button>
         <Button
           href="https://circles-2.gitbook.io/circles-docs"
           variant="outline"
         >
-         
+
           <span className="ml-3">Read the Docs</span>
         </Button>
       </div>

@@ -90,27 +90,27 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-          <Link href="#" aria-label="Home">
-     
-          <Image
-            className=""
-            src={Logo}
-            alt=""
-            unoptimized
-          />
-      </Link>
+            <Link href="#" aria-label="Home">
+
+              <Image
+                className=""
+                src={Logo}
+                alt=""
+                unoptimized
+              />
+            </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
               <NavLink href="#faq">FAQ</NavLink>
-             
+
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
               <NavLink href="https://circles-2.gitbook.io/circles-docs">Docs</NavLink>
             </div>
-            <Button href="#" color="blue">
+            <Button href="https://app.circlesonchain.xyz" color="blue">
               <span>
                 Launch App<span className="hidden lg:inline"></span>
               </span>
